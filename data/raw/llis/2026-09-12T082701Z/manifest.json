@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source": "NASA public Lessons Learned Information System (LLIS)",
+  "source_url": "https://llis.nasa.gov/",
+  "endpoint": "https://llis.nasa.gov/llis/lesson/_search",
+  "method": "POST (read-only search)",
+  "request_body": {
+    "query": {
+      "match_all": {}
+    },
+    "from": 0,
+    "size": 2127
+  },
+  "download_started_utc": "2026-09-12T08:26:40.616892+00:00",
+  "response_received_utc": "2026-09-12T08:27:01.266535+00:00",
+  "response_headers": {
+    "Date": "Sat, 12 Sep 2026 08:27:00 GMT",
+    "Content-Type": "application/json; charset=UTF-8"
+  },
+  "record_count": 2127,
+  "unique_document_ids": 2127,
+  "count_before": 2127,
+  "count_after": 2127,
+  "source_fields": [
+    "aggs",
+    "attachments",
+    "categories",
+    "classification",
+    "dc_relation_applicableenterprise",
+    "dc_subject",
+    "description_event",
+    "documentDescription0",
+    "documentDescription1",
+    "documentDescription2",
+    "documentDescription3",
+    "documentName0",
+    "documentName1",
+    "documentName2",
+    "documentName3",
+    "documentUrl0",
+    "documentUrl1",
+    "documentUrl2",
+    "documentUrl3",
+    "documentid",
+    "drivingEvent",
+    "evidence",
+    "filter",
+    "from",
+    "lesson",
+    "lessonAbstract",
+    "lessonDate",
+    "lessonDocumented",
+    "lesson_date",
+    "lesson_learned",
+    "lesson_number",
+    "missionDirectorate",
+    "organization",
+    "programPhase",
+    "programRelation",
+    "programRole",
+    "query",
+    "recommendation",
+    "relatedPolicy",
+    "restriction",
+    "size",
+    "sort",
+    "tags",
+    "title"
+  ],
+  "files": {
+    "compressed": {
+      "path": "llis_raw_response.json.gz",
+      "bytes": 3146966,
+      "sha256": "6cb8e3d1342e394859a57337b76bd4b8c336ad97b7d8382c56b89a80aadd9946"
+    },
+    "uncompressed": {
+      "path": "llis_raw_response.json",
+      "bytes": 16233143,
+      "sha256": "8fc94762d8a33183d2d96d3ff78970a1893cf6a4f055eb136175e189f29a4aa9"
+    }
+  },
+  "scope": "All records returned by the public LLIS lesson index at download time; includes the full search response and every _source field.",
+  "transformations": "None. Raw HTTP response bytes are preserved with lossless gzip compression; HTML and duplicate/legacy fields remain unchanged.",
+  "exclusions": [
+    "Separately linked attachments, PDFs, images and videos",
+    "Non-public NASA records",
+    "Other NASA databases"
+  ],
+  "limitations": [
+    "Count checks are not a transactional database snapshot",
+    "Source availability and public endpoint behavior can change",
+    "Publicly accessible does not imply every field is accurate or complete"
+  ]
+}

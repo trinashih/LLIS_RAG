@@ -1,0 +1,128 @@
+{
+  "external_fetches": 0,
+  "files": {
+    "field_variants.jsonl.gz": {
+      "bytes": 351754,
+      "records": 210,
+      "sha256": "48025e2302ad38a04aff03ab5e344e8a829d3bc97b1fdce76276245b9a2df4e6"
+    },
+    "lessons.jsonl.gz": {
+      "bytes": 3455954,
+      "records": 2117,
+      "sha256": "a42936920af13c250c009c1e7592fdd1a479f8e85b6983d4cf81ba1ebb38dbf9"
+    },
+    "quality_issues.jsonl.gz": {
+      "bytes": 11863,
+      "records": 2085,
+      "sha256": "ac0978aca61fc96f7920035d9057f7fac874b8a9fbdca52ab53df48403020567"
+    },
+    "quarantine.jsonl": {
+      "bytes": 11665,
+      "records": 10,
+      "sha256": "a5393a2290aca83e3314baae1a57b840bcb039a39ac246cffc822ac7ab621663"
+    }
+  },
+  "pipeline": {
+    "libxml_version": [
+      2,
+      14,
+      6
+    ],
+    "lxml_version": [
+      6,
+      1,
+      1,
+      0
+    ],
+    "script": "scripts/normalize_llis.py",
+    "script_sha256": "32dba39b0347bc20699f224088a059b9cea989add6c35830701f0a4db6d5cb31"
+  },
+  "quality_report_sha256": "02c91c352306b1abc43b079840a72838ea5c4b8a8ec2ea496064d5d95ac4b567",
+  "schema_version": 1,
+  "source_manifest_sha256": "5037d5008f4e954eb8dd7d8290e3563216f5d975d3330eaf51ed2ede43988e08",
+  "source_received_utc": "2026-09-12T08:27:01.266535+00:00",
+  "source_snapshot": "data/raw/llis/2026-09-12T082701Z/llis_raw_response.json.gz",
+  "source_snapshot_sha256": "6cb8e3d1342e394859a57337b76bd4b8c336ad97b7d8382c56b89a80aadd9946",
+  "statistics": {
+    "alias_comparison": {
+      "driving_event": {
+        "both_fields_present": 2005,
+        "different_nonempty_variants": 168,
+        "equivalent_after_rendering": 1835,
+        "one_or_no_field_present": 112,
+        "one_variant_empty": 2
+      },
+      "lesson": {
+        "both_fields_present": 2005,
+        "different_nonempty_variants": 42,
+        "equivalent_after_rendering": 1962,
+        "one_or_no_field_present": 112,
+        "one_variant_empty": 1
+      }
+    },
+    "field_variant_pairs": 210,
+    "input_hits": 2127,
+    "lesson_counts_by_flag": {
+      "attachment_content_not_loaded": 92,
+      "field_variant": 182,
+      "html_parser_diagnostics": 42,
+      "media_content_not_loaded": 380,
+      "missing_section": 2032,
+      "missing_title": 12,
+      "possible_broken_quote_entity": 110,
+      "same_body_text_as_other_lesson": 13,
+      "table_requires_chunking_policy": 134,
+      "unrecognized_html_tags": 2
+    },
+    "lessons_with_core_source_text": 2117,
+    "lessons_with_field_variants": 182,
+    "lessons_with_successful_text_extraction": 2117,
+    "missing_fields": {
+      "abstract": 1087,
+      "driving_event": 32,
+      "evidence": 1161,
+      "lesson": 16,
+      "recommendation": 24,
+      "related_policy": 1988,
+      "title": 12
+    },
+    "normalized_lessons": 2117,
+    "quarantined_hits": 10,
+    "quarantined_hits_with_query_payload": 10,
+    "same_body_text_groups": [
+      [
+        "1052",
+        "1075"
+      ],
+      [
+        "1559",
+        "1558"
+      ],
+      [
+        "1523",
+        "1516"
+      ],
+      [
+        "1050",
+        "1077"
+      ],
+      [
+        "1076",
+        "1051"
+      ],
+      [
+        "1078",
+        "1079",
+        "1049"
+      ]
+    ],
+    "source_field_count": 44,
+    "word_estimate": {
+      "lessons_over_1500": 136,
+      "maximum_per_lesson": 8044,
+      "median_per_lesson": 343,
+      "method": "whitespace-separated units; title plus five core sections, including generated table/media markers; excludes related_policy, metadata and alternate fields; not model tokens",
+      "total": 1131637
+    }
+  }
+}
