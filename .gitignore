@@ -4,3 +4,4 @@ __pycache__/
 .env
 local-index/
 index-output/
+.cline_storage/

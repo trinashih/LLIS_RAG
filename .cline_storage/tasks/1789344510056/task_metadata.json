@@ -103,6 +103,22 @@
       "cline_read_date": 1789344612116,
       "cline_edit_date": 1789344612116,
       "user_edit_date": 1789344899447
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1789345962676,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1789345974619,
+      "cline_edit_date": 1789345974619,
+      "user_edit_date": null
     }
   ],
   "model_usage": [
