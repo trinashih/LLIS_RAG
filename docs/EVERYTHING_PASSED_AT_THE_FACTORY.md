@@ -67,7 +67,7 @@ That choice fits this collection. The event and recommendations can usually sit 
 
 With the retrieval units decided, I needed somewhere to run the code. I used a CPU Colab runtime. Google would do the embedding through its API; Colab would prepare the requests, save the results, and run Qdrant locally. My laptop did not need to host either language model.
 
-The [notebook opens directly in Colab](https://colab.research.google.com/github/Trina0224/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb). To follow the same run, save a copy and choose **Runtime → Change runtime type → None** for the hardware accelerator. The repo was private when I wrote this, so access is required; downloading the `.ipynb` from GitHub and using **File → Upload notebook** is another way to open it.
+The [notebook opens directly in Colab](https://colab.research.google.com/github/trinashih/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb). To follow the same run, save a copy and choose **Runtime → Change runtime type → None** for the hardware accelerator. The repo was private when I wrote this, so access is required; downloading the `.ipynb` from GitHub and using **File → Upload notebook** is another way to open it.
 
 I created my key in [Google AI Studio](https://aistudio.google.com/apikey). On its API Keys page, create a key in a Google Cloud project, or select an existing project. Keep track of that project: its quota and billing are what the notebook will use. Google's [key setup guide](https://ai.google.dev/gemini-api/docs/api-key) covers the account and project options.
 

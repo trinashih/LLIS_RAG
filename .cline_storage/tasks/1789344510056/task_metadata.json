@@ -1,0 +1,117 @@
+{
+  "files_in_context": [
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1789344565695,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "notebooks/LLIS_RAGrets_Index.ipynb",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1789344585958,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/INDEXING.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1789344596535,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1789344612116,
+      "cline_edit_date": 1789344612116,
+      "user_edit_date": null
+    },
+    {
+      "path": "notebooks/LLIS_RAGrets_Index.ipynb",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1789344642195,
+      "cline_edit_date": 1789344642195,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/INDEXING.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1789344662402,
+      "cline_edit_date": 1789344662402,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/EVERYTHING_PASSED_AT_THE_FACTORY.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1789344852347,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/EVERYTHING_PASSED_AT_THE_FACTORY.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1789344867943,
+      "cline_edit_date": 1789344867943,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/EVERYTHING_PASSED_AT_THE_FACTORY.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1789344867943,
+      "cline_edit_date": 1789344867943,
+      "user_edit_date": 1789344889659
+    },
+    {
+      "path": "docs/EVERYTHING_PASSED_AT_THE_FACTORY.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1789344867943,
+      "cline_edit_date": 1789344867943,
+      "user_edit_date": 1789344894625
+    },
+    {
+      "path": "docs/INDEXING.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1789344662402,
+      "cline_edit_date": 1789344662402,
+      "user_edit_date": 1789344896708
+    },
+    {
+      "path": "notebooks/LLIS_RAGrets_Index.ipynb",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1789344642195,
+      "cline_edit_date": 1789344642195,
+      "user_edit_date": 1789344897896
+    },
+    {
+      "path": "README.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1789344612116,
+      "cline_edit_date": 1789344612116,
+      "user_edit_date": 1789344899447
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1789344510066,
+      "model_id": "GPT-5.4",
+      "model_provider_id": "openai",
+      "mode": "act"
+    }
+  ],
+  "environment_history": []
+}

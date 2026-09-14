@@ -1,6 +1,6 @@
 # Colab indexing and retrieval
 
-[Open the notebook in Colab](https://colab.research.google.com/github/Trina0224/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb)
+[Open the notebook in Colab](https://colab.research.google.com/github/trinashih/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb)
 
 The code is implemented and tested offline. **Real Gemini embeddings and retrieval scores are not precomputed in this repo.** The owner runs the notebook using their Gemini API key; the two-vector pilot checks the live API before the full corpus runs.
 

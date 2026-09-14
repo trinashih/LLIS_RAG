@@ -19,7 +19,7 @@ To use paid API quota, open the project's billing setup in AI Studio, link a bil
 
 ### 2. Open the notebook and give it access
 
-Use [Open in Colab](https://colab.research.google.com/github/Trina0224/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb). The repo was private when this walkthrough was written, so readers need repository access. If Colab cannot open it directly, download the `.ipynb` from GitHub and choose **File → Upload notebook** in Colab.
+Use [Open in Colab](https://colab.research.google.com/github/trinashih/LLIS-RAGrets/blob/main/notebooks/LLIS_RAGrets_Index.ipynb). The repo was private when this walkthrough was written, so readers need repository access. If Colab cannot open it directly, download the `.ipynb` from GitHub and choose **File → Upload notebook** in Colab.
 
 Choose **Runtime → Change runtime type**, with the hardware accelerator set to **None**. In the left sidebar, open **Secrets** using the key icon. Add a secret named exactly `GEMINI_API_KEY`, paste the key as its value, and enable **Notebook access** for this notebook. Access is granted separately for each notebook. Enable it again when opening a different copy.
 
